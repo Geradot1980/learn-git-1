@@ -5,7 +5,8 @@ $ git clone https://github.com/Geradot1980/learn-git-1.git
 
 $ git status
 
-<!-- Выложить изменения на GitHub -->
+*Выложить изменения на GitHub*
+$ git push
 
-<!-- Запоминает все что modified -->
+*Запоминает все что modified*
 $ git commit -m 'Name commit'
