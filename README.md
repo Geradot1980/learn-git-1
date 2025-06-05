@@ -7,3 +7,5 @@ $ git status
 
 <!-- Выложить изменения на GitHub -->
 
+<!-- Запоминает все что modified -->
+$ git commit -m 'Name commit'
