@@ -64,14 +64,30 @@
 ```git stash pop``` - Возвращает изменения из stash<br>
 ```git stash clear``` - Удалить все изменения из stash<br>
 11. <i>Сохранение изменений в файл:</i><br>
- a) ```git diff >> 'saveTo.file'``` - Сохраняем вывод див в файл saveTo.file<br>
- b) ```git apply 'saveTo.file'``` - Применяем сохраненное в файле saveTo.file <br>
+ a) ```git diff >> saveTo.file``` - Сохраняем вывод див в файл saveTo.file<br>
+ b) ```git apply saveTo.file``` - Применяем сохраненное в файле saveTo.file <br>
 
 ## 3. Ветки
-1. branch <br>
+1. Создание и переключение <br>
 ```git branch my_first_branch``` - Создание ветки <b>my_first_branch</b><br>
 ```git branch``` - Вывести список веток<br>
-```git checkout my_first_branch``` - Перейти на ветку <b>my_first_branch</b><br>
+```git checkout my_first_branch``` - Перейти в ветку <b>my_first_branch</b><br>
+```git checkout -``` - Перейти в предыдущую ветку<br>
+```git push --set-upstream origin my_first_branch``` - При первом <b>push</b> новой локальной ветки нужно выполнить следующую команду чтобы связать нашу ветку с веткой на вервере. Как правило у них одинаковые названия <br>
+```git push -u origin my_first_branch``` - Тоже что и выше <br>
+
+2. Слияние <br>
+2.1 ```git branch my_first_branch``` - Создание ветки <b>my_first_branch</b><br>
+```git branch``` - Вывести список веток<br>
+```git checkout my_first_branch``` - Перейти в ветку <b>my_first_branch</b><br>
+```git checkout -``` - Перейти в предыдущую ветку<br>
+
+
+
+
+
+
+
 
 
 
